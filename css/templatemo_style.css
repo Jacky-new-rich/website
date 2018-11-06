@@ -222,7 +222,7 @@ a#mobile_menu {
 --------------------------------------*/
 .templatemo-products-left, 
 .templatemo-products-right {
-  height: 387px;
+	height: 687px;
 }
 .templatemo-products-left { padding: 40px 80px 30px 80px; }
 .templatemo-products-right {
@@ -401,8 +401,8 @@ footer .col-lg-12 { padding: 0; }
     padding-top: 70px;
   }
   .templatemo-testimonials-header {
-	top: 135px;
-	left: 76px;
+	top: 158px;
+	left: 127px;
   }
   .templatemo-contact { padding: 30px; }
 }
