@@ -45,7 +45,9 @@ ul {
 }
 .templatemo-red-text { color: #fe475b; }
 .templatemo-light-gray-text { color: #9b9b9b; }
-.templatemo-dark-gray-text { color: #535353; }
+.templatemo-dark-gray-text {
+	color: #333333;
+}
 .templatemo-gradient-bg {
   background-image: url('../images/gradient-border-top.png'), url('../images/gradient-border-bottom.png');
   background-position: center top, center bottom;
