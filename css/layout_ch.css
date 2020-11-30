@@ -1,0 +1,616 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	font-family: 'Montserrat', sans-serif;}
+html{
+  font-size: 13px;
+}
+
+body{
+	overflow-x: hidden;}
+#WW{
+	width:100%;
+	margin:0 auto;
+	
+}
+header{
+	width:100%;
+	height:0;
+	color:#000000;
+	padding-bottom:2%;
+	font-size:1rem;
+	line-height:200%;
+	background-color: #FFFFFF;
+	position:relative;
+}
+
+header ul{
+	position:absolute;
+	left:60%;
+	width:20%;
+	}
+header ul li{
+	display:block;
+	width:35%;
+	text-align:center;
+	float:left;
+	font-family:'Noto Sans TC', sans-serif;
+}
+header ul li a{
+	
+	margin-right:10%;}
+a.MAIL{
+	text-indent:30px;
+	display:block;
+	width:15%;
+	position:absolute;
+	right:3%;
+	background-image:url(../images/bg_mail.png);
+	background-repeat:no-repeat;
+	background-position:0% 50%;
+	background-size:10% auto;
+	
+	}
+
+nav{	
+    width:100%;
+	height:0;
+	padding-bottom:7%;
+	box-shadow:0px 6px 15px #455A73;	
+	z-index:9999;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1bacd4+12,1b9bd4+85 */
+	background: #1bacd4; /* Old browsers */
+	background: -moz-linear-gradient(left, #1bacd4 12%, #1b9bd4 85%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #1bacd4 12%,#1b9bd4 85%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #1bacd4 12%,#1b9bd4 85%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1bacd4', endColorstr='#1b9bd4',GradientType=1 ); /* IE6-9 */
+	position:relative;
+
+	
+	}
+#LOGO{
+	width:13%;
+	height:0;
+	padding-bottom:38.52%;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	background-image: url(../images/img_logo.png);
+	position:absolute;
+	top:-30%;
+	left:10%;
+	}
+nav ul{
+	width:80%;
+	position:absolute;
+	left:30%;
+	top:30%;
+	
+}
+nav ul li{
+	list-style: none;
+	float:left;
+	align-content:center;
+	color:#FFFFFF;
+	font-size:1.8rem;
+	font-weight:bolder;
+	margin-right:8%;}
+nav ul li:hover{ 
+     color:#E5D573;
+	 cursor:pointer;}
+#PIC{
+	width:100%;
+	height:0;
+	padding-bottom:38.7%;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	background-image:url(../images/img_kv.jpg);
+	z-index:1;
+
+	}
+#INF{
+	width:100%;
+	height:0;
+	padding-bottom:51.4%;
+	position:relative;
+	}
+#INF #INFPIC{
+	width:60%;
+	height:0;
+	padding-bottom:38.52%;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	background-image: url(../images/img_pd.png);
+	position:absolute;
+	top:25%;
+	left:-5%;
+	}
+#INF h2{
+	position:absolute;
+	font-size:2.8rem;
+	left:50%;
+	top:25%;
+	}
+
+#INF p{
+	width:45%;
+	position:absolute;
+	font-size:1.5rem;
+	line-height:1.8em;
+	left:50%;
+	top:40%;
+	text-align: justify;
+	text-justify:inter-ideograph;
+	}
+	
+#VIDEO{
+	width:100%;
+	background-color:#000000;
+	}
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+
+position: absolute;
+top:7.5%;
+bottom:0;
+left:7.5%;
+width: 85%;
+height:85%;}
+
+#WHAT{
+	width:100%;
+	height:0;
+	padding-bottom:51.4%;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	background-image: url(../images/bg_what.jpg);
+	position: relative;
+	}
+#WHATPIC{
+	width:68%;
+	height:0;
+	padding-bottom:44.4%;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	background-image: url(../images/img_app-06.png);
+	position:absolute;
+	top:8%;
+	left:-5%;
+	}
+#WHAT h2{
+	position:absolute;
+	font-size:2.8rem;
+	color:#FFFFFF;
+	left:5%;
+	top:10%;
+	}
+
+#WHAT p{
+	display:block;
+	width:40%;
+	position:absolute;
+	font-size:1.5rem;
+	line-height:3rem;
+	color:#FFFFFF;
+	left:55%;
+	bottom:11%;
+	text-align: justify;
+	text-justify:inter-ideograph;
+	}
+#ABOUT h2{
+	display:block;
+	width:16%;
+	height:0;
+	padding-bottom:9%;
+	background-color:#205AAF;
+	position:absolute;
+	font-size:2.8rem;
+	color:#FFFFFF;
+	line-height:330%;
+	text-align:center;
+	left:5%;
+	top:4%;
+	border-radius:5%;
+	-moz-border-radius:5%; 
+    -webkit-border-radius: 5%;
+	}
+#ABOUT{
+	width:100%;
+	height:0;
+	padding-bottom:68.7%;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	background-image: url(../images/bg_about.png);
+	position: relative;
+	}
+#ABOUT p{
+	display:block;
+	width:45%;
+	position:absolute;
+	font-size:1.2rem;
+	line-height:2.3rem;
+	color:#FFFFFF;
+	left:5%;
+	top:23%;
+	text-align: justify;
+	text-justify:inter-ideograph;
+	}
+#ABOUT h5 a{
+	display:block;
+	width:20%;
+	background-color:#FFFFFF;
+	position:absolute;
+	font-size:2rem;
+	line-height:4rem;
+	left:14%;
+	top:50%;
+	text-align:center;
+	padding-left:3%;
+	padding-right:3%;
+	text-decoration:none;
+	color:#000000;
+	border-radius:30px;
+	-moz-border-radius:30px; 
+    -webkit-border-radius: 30px;
+	
+	}
+#ABOUT h5 a:hover{
+	background-color:#E5D573;}
+#CONTACT{
+	width:100%;
+	height:0;
+	padding-bottom:15%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1bacd4+12,1b9bd4+85 */
+	background: #1bacd4; /* Old browsers */
+	background: -moz-linear-gradient(left, #1bacd4 12%, #1b9bd4 85%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #1bacd4 12%,#1b9bd4 85%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #1bacd4 12%,#1b9bd4 85%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1bacd4', endColorstr='#1b9bd4',GradientType=1 ); /* IE6-9 */
+	position:relative;
+	}
+.CREDIT{ display:none;}
+#CONLOGO{
+	width:15%;
+	height:0;
+	padding-bottom:9.8%;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	background-image: url(../images/img_conlogo.png);
+	position:absolute;
+	top:17%;
+	left:10%;
+	}
+#CONTACT h1{
+	position:absolute;
+	font-size:2.8rem;
+	font-weight:bold;
+	color:#FFFFFF;
+	left:30%;
+	top:17%;
+	}
+#CONTACT h3{
+	display:block;
+	width:100%;
+	position:absolute;
+	font-size:1.5rem;
+	line-height:3rem;
+	left:30%;
+	color:#FFFFFF;
+	text-indent:3%;
+	background-repeat:no-repeat;
+	background-position:0% 50%;
+	
+	}
+	
+
+.MAIL2{
+	top:45%;
+	background-image:url(../images/img_icon_mail.png);
+	background-size:30px auto;
+	}
+.MAIL2 a{
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+.MAP{
+	top:65%;
+	background-image: url(../images/img_icon_location.png);
+	background-size:30px auto;
+	}
+.MAIL2 a:hover{ 
+     color:#E5D573;}
+footer{
+	color:#FFFFFF;
+	font-size:0.8rem;
+	width:100%;
+	height:0;
+	padding-bottom:3%;
+	line-height:300%;
+	text-align:center;
+	background-color:#000000;
+	}
+@media screen and (min-width: 700px) and (max-width: 1100px){
+html{
+  font-size: 9px;
+}
+
+}
+@media screen and (max-width:640px){
+html{
+  font-size:10px;
+}
+#WW{
+	overflow-x: hidden;}
+body{
+	overflow-x: hidden;}
+
+header{
+	width:100%;
+	height:0;
+	color:#000000;
+	padding-bottom:4%;
+	font-size:0.8rem;
+	line-height:260%;
+	background-color: #FFFFFF;
+	position:relative;
+}
+
+header ul{
+	position:absolute;
+	left:25%;
+	width:50%;
+	}
+header ul li{
+	display:block;
+	width:25%;
+	text-align:center;
+	float:left;
+	font-family:'Noto Sans TC', sans-serif;
+}
+header ul li a{
+	margin-right:3%;}
+header a.MAIL{
+	display:block;
+	width:40%;
+	text-indent:8%;
+	position:absolute;
+	right:3%;
+	background-image:url(../images/bg_mail.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+	background-size:8% auto;
+	
+	}
+nav{	
+    width:100%;
+	height:0;
+	padding-bottom:7%;
+	box-shadow:0px 6px 15px #455A73;	
+	z-index:9999;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1bacd4+12,1b9bd4+85 */
+	background: #1bacd4; /* Old browsers */
+	background: -moz-linear-gradient(left, #1bacd4 12%, #1b9bd4 85%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #1bacd4 12%,#1b9bd4 85%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #1bacd4 12%,#1b9bd4 85%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1bacd4', endColorstr='#1b9bd4',GradientType=1 ); /* IE6-9 */
+	position:relative;
+
+	
+	}
+#LOGO{
+	width:13%;
+
+	position:absolute;
+	top:-35%;
+	left:10%;
+	}
+nav ul{
+	width:80%;
+	position:absolute;
+	left:26%;
+	top:28%;
+	
+}
+nav ul li{
+	list-style: none;
+	float:left;
+	align-content:center;
+	color:#FFFFFF;
+	font-size:1rem;
+	font-weight:bolder;
+	margin-right:3%;}
+#PIC{
+	width:100%;
+	height:0;
+	padding-bottom:124.7%;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	background-image:url(../images/img_kv_sp.jpg);
+	z-index:1;
+
+	}
+#INF{
+	width:100%;
+	height:0;
+	padding-bottom:130%;
+	position:relative;
+	}
+#INF #INFPIC{
+	width:100%;
+	height:0;
+	padding-bottom:61.6%;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	background-image: url(../images/img_pd.png);
+	position:absolute;
+	top:10%;
+	left:0%;
+	}
+#INF h2{
+	position:absolute;
+	font-size:2.4rem;
+	text-align:center;
+	left:0;
+	right:0;
+	top:5%;
+	}
+
+#INF p{
+	width:90%;
+	position:absolute;
+	font-size:1.5rem;
+	line-height:3.2rem;
+	left:5%;
+	top:55%;
+
+	}
+	
+.video-container iframe, .video-container object, .video-container embed {
+
+position: absolute;
+top:0;
+bottom:0;
+left:0%;
+width: 100%;
+height:100%;}
+
+#WHAT{
+	padding-bottom:146.6%;
+	background-image: url(../images/bg_what_sp.jpg);
+	}
+#WHATPIC{
+	width:120%;
+	height:0;
+	padding-bottom:80%;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	background-image: url(../images/img_app-06.png);
+	position:absolute;
+	top:34%;
+	left:-5%;
+	}
+	
+#WHAT h2{
+	font-size:2.8rem;
+	left:5%;
+	top:10%;
+	}
+
+#WHAT p{
+	display:block;
+	width:90%;
+	position:absolute;
+	font-size:1.3rem;
+	line-height:1.5em;
+	color:#FFFFFF;
+	left:5%;
+	bottom:70%;
+	text-align: justify;
+	text-justify:inter-ideograph;
+	}
+#ABOUT h2{
+	display:block;
+	width:45%;
+	height:0;
+	padding-bottom:22%;
+	background-color:#205AAF;
+	position:absolute;
+	font-size:2.8rem;
+	color:#FFFFFF;
+	line-height:330%;
+	text-align:center;
+	left:5%;
+	top:4%;
+	border-radius:10%;
+	-moz-border-radius:10%; 
+    -webkit-border-radius:10%;
+	}
+#ABOUT{
+	padding-bottom:237.2%;
+	background-image: url(../images/bg_about_sp.png);
+
+	}
+#ABOUT p{
+	width:90%;
+	font-size:1.5rem;
+	line-height:3.2rem;
+	left:5%;
+	top:14%;
+	}
+#CONTACT{
+	width:100%;
+	height:0;
+	padding-bottom:32%;
+	position:relative;
+	}
+.CREDIT{ display:none;}
+#CONLOGO{
+	width:20%;
+	height:0;
+	padding-bottom:13%;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	background-image: url(../images/img_conlogo.png);
+	position:absolute;
+	top:25%;
+	left:5%;
+	}
+#CONTACT h1{
+	position:absolute;
+	font-size:1.8rem;
+	font-weight:bold;
+	color:#FFFFFF;
+	left:30%;
+	top:17%;
+	}
+#CONTACT h3{
+	position:absolute;
+	font-size:1.1rem;
+	line-height:2rem;
+	left:30%;
+	color:#FFFFFF;
+	
+	background-repeat:no-repeat;
+	background-position:0% 10%;
+	
+	}
+#CONTACT h3.MAIL2{
+	top:40%;
+	background-image:url(../images/img_icon_mail.png);
+	background-size:18px auto;
+	text-indent:25px;
+	}
+#CONTACT h3.MAIL2 a{
+	display:block;
+	width:150%;
+	color:#FFFFFF;
+	text-decoration:none;
+	line-height:2rem;
+	
+	}
+#CONTACT h3.MAP{
+	top:60%;
+	background-image: url(../images/img_icon_location.png);
+	background-size:18px auto;
+	text-indent:25px;
+	}
+.MAIL2 a:hover{ 
+     color:#E5D573;}
+footer{
+	color:#FFFFFF;
+	font-size:0.8rem;
+	width:100%;
+	height:0;
+	padding-bottom:7%;
+	line-height:300%;
+	text-align:center;
+	background-color:#000000;
+	}
+}

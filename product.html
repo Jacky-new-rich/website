@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>全方位AI智慧振動監測服務 | 新力奇股份有限公司 | NEW RICH DESIGN - 產品&服務</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link  href="css/reset.css" rel="stylesheet" type="text/css"  />
+<link  href="css/layout.css" rel="stylesheet" type="text/css"  />
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<style type="text/css">
+body{
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+
+#BANNERPRODUCT{
+	margin-top: 5vw;
+	height: 45vw;
+	position: relative;
+	background: rgb(230,230,230); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(230,230,230,1) 0%, rgba(255,255,255,1) 51%, rgba(242,242,242,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(230,230,230,1) 0%,rgba(255,255,255,1) 51%,rgba(242,242,242,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(230,230,230,1) 0%,rgba(255,255,255,1) 51%,rgba(242,242,242,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+}
+
+#BANNERPRODUCT h1{
+	position: absolute;
+	top: 3vw;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-size: 2.1vw;
+	font-weight: bolder;
+}
+#MENULIST{
+	position: absolute;;
+	top:9vw;
+	left: 18vw;
+}
+
+#MENULIST ul{}
+#MENULIST ul li{
+	float: left;
+	margin-right: 5vw;
+	text-indent: 2vw;
+}
+#MENULIST ul li ul li{
+	float: none;
+	margin-right:0vw;
+	font-size: 1.4vw;
+	font-weight: bolder;
+	line-height: 2.6vw;
+}
+
+.space{
+	margin-top: 1vw;
+}
+
+#MENULIST ul li ul li a{
+	color: black;
+	padding-left: 1.5vw;
+	text-decoration: none;
+	font-size: 1vw;
+	line-height: 2vw;
+	font-weight: normal;
+	background-image: url(image/productlist.png);
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+#MENULIST ul li ul li a:hover{
+	color: #F29600;
+}
+#MENULIST h2{
+	text-indent: -9999px;
+	width: 18vw;
+	height:0;
+	padding-bottom:95%;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+}
+
+.sensor{background-image: url(image/menu_sensor.png);}
+.components{background-image: url(image/menu_components.png);}
+.software{background-image: url(image/menu_software.png);}
+
+#INTRODUCTION{
+	height: 90vw;
+	position: relative;
+}
+#INTRODUCTION h2{
+	position: absolute;
+	top: 4vw;
+	left:18vw;
+	font-size: 2.1vw;
+	font-weight: bolder;
+}
+#INTRODUCTION h3{
+	position: absolute;
+	top: 5vw;
+	right:18vw;
+	font-size: 1vw;
+	font-weight: bolder;
+	letter-spacing: 2px;
+}
+
+#INTRODUCTION h5{
+	display: block;
+	width: 6vw;
+	height: 6vw;
+	border-radius:3vw;
+	background-color: #F29600;
+	font-size: 3vw;
+	line-height: 6vw;
+	color: white;
+	text-align: center;
+	position: absolute;
+	top: 3vw;
+	left: 3vw;
+}
+#INTRODUCTION h6{
+	display: block;
+	text-align: center;
+	width: 64vw;
+	height: 2vw;
+	position: absolute;
+	top: 52.5vw;
+	left:18vw;
+	font-size: 1vw;
+	line-height: 2vw;
+	border-radius: 1vw;
+	background-color: black;
+	color: white;
+	font-weight: bolder;
+	letter-spacing: 2px;
+}
+#STEP1{
+	width: 64vw;
+	height: 12vw;
+	border: 1px dashed #666666;
+	border-radius: 1.5vw;
+	position: absolute;
+	left: 18vw;
+	top: 8vw;}
+
+
+#STEP1 p {
+	font-size: 1vw;
+	position: absolute;
+	top: 2vw;
+	left: 15vw;
+	font-weight: normal;
+}
+
+#STEP1 p span{
+	font-weight: bolder;
+}
+#STEP1 ul{
+	position: absolute;
+	left: 18vw;
+	top: 4vw;
+}
+
+#STEP1 ul li{
+	float: left;
+	margin-right: 8vw;
+}
+#STEP1 ul li a{
+	display: block;
+	text-indent: -9999px;
+	width: 7vw;
+	height:0;
+	padding-bottom:95%;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+}
+#STEP1 ul li a:hover{
+	opacity: 0.5;
+}
+
+.A{background-image: url(image/vitexa.png);}
+.LITE{background-image: url(image/vitexlite.png);}
+.I{background-image: url(image/vitexi.png);}
+
+#STEP2{
+	width: 64vw;
+	height: 12vw;
+	border: 1px dashed #666666;
+	border-radius: 1.5vw;
+	position: absolute;
+	left: 18vw;
+	top: 23.5vw;}
+
+#STEP2 p {
+	font-size: 1vw;
+	position: absolute;
+	top: 2vw;
+	left: 15vw;
+	font-weight: normal;
+}
+#STEP2 p span{
+	font-weight: bolder;
+}
+#STEP2 ul{
+	position: absolute;
+	left: 12vw;
+	top: 4vw;
+}
+#STEP2 ul li{
+	float: left;
+	margin-right: 1vw;
+}
+#STEP2 ul li a{
+	display: block;
+	text-indent: -9999px;
+	width: 7vw;
+	height:0;
+	padding-bottom:95%;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+}
+#STEP2 ul li a:hover{
+	opacity: 0.5;
+}
+
+.BASE1{background-image: url(image/VIBASRAH.png);}
+.BASE2{background-image: url(image/VIBAMRA.png);}
+.BASE3{background-image: url(image/VIBLSRA.png);}
+.BASE4{background-image: url(image/VIBLMRA.png);}
+.BASE5{background-image: url(image/VIBISVA.png);}
+.BASE6{background-image: url(image/VIBIMRA.png);}
+
+#STEP3{
+	width: 64vw;
+	height: 12vw;
+	border: 1px dashed #666666;
+	border-radius: 1.5vw;
+	position: absolute;
+	left: 18vw;
+	top: 39vw;}
+
+#STEP3 p {
+	font-size: 1vw;
+	position: absolute;
+	top: 2vw;
+	left: 15vw;
+	font-weight: normal;
+}
+#STEP3 p span{
+	font-weight: bolder;
+}
+
+#STEP3 ul{
+	position: absolute;
+	left: 20vw;
+	top: 4vw;
+}
+#STEP3 ul li{
+	float: left;
+	margin-right: 5vw;
+}
+#STEP3 ul li a{
+	display: block;
+	text-indent: -9999px;
+	width: 13vw;
+	height:0;
+	padding-bottom:50%;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+}
+#STEP3 ul li a:hover{
+	opacity: 0.5;
+}
+
+.WIRE1{background-image: url(image/VIWIREA.png);}
+.WIRE2{background-image: url(image/VIWIREI.png);}
+
+#STEP4{
+	width: 64vw;
+	height: 12vw;
+	border: 1px dashed #666666;
+	border-radius: 1.5vw;
+	position: absolute;
+	left: 18vw;
+	top: 58vw;}
+
+#STEP4 p {
+	font-size: 1vw;
+	position: absolute;
+	top: 2vw;
+	left: 15vw;
+	font-weight: normal;
+}
+#STEP4 p span{
+	font-weight: bolder;
+}
+
+#STEP4 p.NOTE{
+	height: 2vw;
+	background-image: url(image/icon_1toall.png);
+	background-repeat:no-repeat;
+	background-size:auto 80%;
+	background-position: left center;
+	text-indent: 2vw;
+	left: 50vw;
+	line-height: 2vw;
+}
+#STEP4 ul{
+	position: absolute;
+	left: 12vw;
+	top: 4vw;
+}
+#STEP4 ul li{
+	float: left;
+	margin-right: 1vw;
+}
+#STEP4 ul li a{
+	display: block;
+	text-indent: -9999px;
+	width: 7vw;
+	height:0;
+	padding-bottom:100%;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+}
+#STEP4 ul li a:hover{
+	opacity: 0.5;
+}
+
+.LINK1{background-image: url(image/VILinkTB.png);}
+.LINK2{background-image: url(image/VILinkEXIO.png);}
+.LINK3{background-image: url(image/VILinkUSB.png);}
+.LINK4{background-image: url(image/VILinkBT.png);}
+.LINK5{background-image: url(image/VILinkWIFI.png);}
+.BOX1{background-image: url(image/VIETBox4.png);}
+
+#STEP5{
+	width: 28vw;
+	height: 12vw;
+	border: 1px dashed #666666;
+	border-radius: 1.5vw;
+	position: absolute;
+	left: 18vw;
+	top: 74vw;}
+
+#STEP5 p {
+	width: 15vw;
+	font-size: 1.8vw;
+	position: absolute;
+	line-height: 3.2vw;
+	top: 2.9vw;
+	left: 11vw;
+	font-weight: normal;
+}
+#CONNECTSTEP5{
+	width: 8vw;
+	text-align: center;
+	line-height: 4.1vw;
+	position: absolute;
+	left: 33.5vw;
+	top: 70vw;
+	font-size: 1.3vw;
+	color: #999999;
+	font-weight: bolder;
+	border-left: 0.3vw solid #999999;
+	border-right: 0.3vw solid #999999;
+}
+
+#STEP5_2{
+	width: 34vw;
+	height: 12vw;
+	border: 1px dashed #666666;
+	border-radius: 1.5vw;
+	position: absolute;
+	left: 48vw;
+	top: 74vw;}
+
+#STEP5_2 p {
+	font-size: 1vw;
+	position: absolute;
+	top: 2vw;
+	left: 4vw;
+	font-weight: normal;
+}
+#STEP5_2 p span{
+	font-weight: bolder;
+}
+
+#STEP5_2 ul{
+	position: absolute;
+	left: 6vw;
+	top: 4.5vw;
+}
+#STEP5_2 ul li{
+	float: left;
+	margin-right: 1vw;
+}
+#STEP5_2 ul li a{
+	display: block;
+	text-indent: -9999px;
+	width: 11vw;
+	height:0;
+	padding-bottom:60%;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+}
+#STEP5_2 ul li a:hover{
+	opacity: 0.5;
+}
+
+.SOFT1{background-image: url(image/VIAnalyzer1.png);}
+.SOFT2{background-image: url(image/VIAnalyzer2.png);}
+
+#CONNECTSTEP5_2{
+	width: 23.5vw;
+	height: 2vw;
+	text-align: center;
+	line-height: 4.1vw;
+	position: absolute;
+	left: 49.5vw;
+	top: 70vw;
+	border-left: 0.3vw solid #999999;
+	border-right: 0.3vw solid #999999;
+	border-bottom: 0.3vw solid #999999;
+}
+#CONNECTSTEP5_3{
+	width: 0.3vw;
+	height: 1.8vw;
+	text-align: center;
+	line-height: 4.1vw;
+	position: absolute;
+	left: 61.5vw;
+	top: 72.2vw;
+	border-left: 0.3vw solid #999999;
+}
+#NEXT{
+	width: 10vw;
+	height:0;
+	padding-bottom:2%;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	background-image: url(image/next.png);
+	position: absolute;
+	left: 45vw;
+}
+.NEXT1{
+	top: 21vw;
+}
+.NEXT2{
+	top: 36.5vw;
+}
+.NEXT3{
+	top: 55.5vw;
+}
+</style>
+</head>
+<body>
+<div>
+<div id="TOP">
+<nav id="LEFTBTN">
+	<ul>
+		<li><a href="aboutus.html">公司簡介</a></li>
+		<li><a href="product.html" class="THISPAGE">產品&服務</a></li>
+		<li><a href="service.html">支援中心</a></li>
+	</ul>
+</nav>
+<div id="LOGO"></div>
+<nav id="RBTN">
+	<ul>
+		<li><a href="mailto:sales@new-rich-design.com">聯絡我們</a></li>
+		<li><a href="index.html">首頁</a></li>
+	</ul>
+</nav>
+</div>
+<div id="BANNERPRODUCT">
+<h1>全產品系列一覽</h1>
+<div id="MENULIST">
+<ul>
+<li>
+<h2 class="sensor">感測器</h2>
+<ul>
+<li >單軸</li>
+<li><a href="VITEXA.html">VI-TEX-A</a></li>
+<li><a href="VITEXLITE.html">VI-TEX-LITE</a></li>
+<li class="space">三軸</li>
+<li><a href="VITEXI.html">VI-TEX-I</a></li>
+</ul>
+
+</li>	
+<li>
+<h2 class="components">輔助零件</h2>
+<ul>
+<li>場域安裝</li>
+<li><a href="VIBASE.html">底座 VI-BASE</a></li>
+<li><a href="VIWIRE.html">傳輸線 VI-WIRE</a></li>
+<li class="space">訊號同步</li>
+<li><a href="VILINK.html">一對一：VI-LINK</a></li>
+<li><a href="VIETBOX.html">一對多：VI-ET-BOX</a></li>
+</ul>
+
+</li>	
+<li>
+<h2 class="software">軟體服務</h2>
+<ul>
+<li>單機版</li>
+<li><a href="software.html">VI Analyzer</a></li>
+</ul>
+</li>	
+</ul>
+</div>
+</div>
+<div id="INTRODUCTION">
+<h2>簡易安裝說明</h2>
+<h3>*點選圖片可直接連接到規格說明頁面。</h3>
+<div id="STEP1" data-aos="fade-right" data-aos-duration="1000">
+<h5>1</h5>
+<p><span>VI-TEX：</span>選擇適合您場域的感測器，並設置於監測物體上。</p>
+<ul>
+<li><a href="VITEXA.html" class="A">VI-TEX-A</a></li>
+<li><a href="VITEXLITE.html" class="LITE">VI-TEX-LITE</a></li>
+<li><a href="VITEXI.html" class="I">VI-TEX-I</a></li>
+</ul>
+</div>
+<div id="NEXT" class="NEXT1" data-aos="fade-down"></div>
+<div id="STEP2"data-aos="fade-left" data-aos-duration="1000">
+<h5>2</h5>
+<p><span>VI-BASE：</span>選擇適合的底座，幫助您固定好感測器位置。</p>
+<ul>
+<li><a href="VIBASE.html" class="BASE1">VI-BAS-RAH</a></li>
+<li><a href="VIBASE.html" class="BASE2">VI-BAM-RA</a></li>
+<li><a href="VIBASE.html" class="BASE3">VI-BLS-RA</a></li>
+<li><a href="VIBASE.html" class="BASE4">VI-BLM-RA</a></li>
+<li><a href="VIBASE.html" class="BASE5">VI-BIS-VA</a></li>
+<li><a href="VIBASE.html" class="BASE6">VI-BIM-RA</a></li>
+</ul>
+</div>
+<div id="NEXT" class="NEXT2" data-aos="fade-down"></div>
+<div id="STEP3" data-aos="fade-right" data-aos-duration="1000">
+<h5>3</h5>
+<p><span>VI-WIRE：</span>搭配適合的線材，標準尺寸為10M，長度可調整，若有客製需求請另外提出。</p>
+<ul>
+<li><a href="VIWIRE.html" class="WIRE1">VI-WIRE- A</a></li>
+<li><a href="VIWIRE.html" class="WIRE2">VI-WIRE- I</a></li>
+</ul>
+</div>
+<h6 data-aos="fade-down">全系列導入IP68防水保護</h6>
+<div id="NEXT" class="NEXT3" data-aos="fade-down"></div>
+<div id="STEP4" data-aos="fade-left" data-aos-duration="1000">
+<h5>4</h5>
+<p><span>VI-LINK：</span>依據訊號輸出條件，選擇您需要的控制器轉接座。</p>
+<p class="NOTE">可一對多訊號輸出</p>
+<ul>
+<li><a href="VILINK.html" class="LINK1">VI-Link-TB</a></li>
+<li><a href="VILINK.html" class="LINK2">VI-Link-EXIO</a></li>
+<li><a href="VILINK.html" class="LINK3">VI-Link-USB</a></li>
+<li><a href="VILINK.html" class="LINK4">VI-Link-BT</a></li>
+<li><a href="VILINK.html" class="LINK5">VI-Link-WIFI</a></li>
+<li><a href="VIETBOX.html" class="BOX1">VI-ET-Box-4(1 to 4)</a></li>
+</ul>
+</div>
+<div id="STEP5" data-aos="fade-up" data-aos-duration="1000">
+<h5>5</h5>
+<p>可直接與您的PLC進行整合。</p>
+</div>
+<div id="CONNECTSTEP5" data-aos="fade-down">
+<p>Modbus</p>
+</div>
+<div id="STEP5_2" data-aos="fade-up" data-aos-duration="1000">
+<p><span>VI Analyzer：</span>安裝於PC，進行即時訊號監測分析與調整設定。</p>
+<ul>
+<li><a href="software.html" class="SOFT1"></a></li>
+<li><a href="software.html" class="SOFT2"></a></li>
+</ul>
+</div>
+<div id="CONNECTSTEP5_2" data-aos="fade-down"></div>
+<div id="CONNECTSTEP5_3" data-aos="fade-down"></div>
+</div>
+<div id="SITEMAP">
+<div id="LOGOB"></div>
+<div id="SITEUL">
+<ul class="SITEMAPUI">
+	<li class="SITETITLE">網站地圖</li>
+	<li><a href="aboutus.html">公司簡介</a></li>
+	<li><a href="application.html">應用場域說明</a></li>
+	<li><a href="certification.html">認證資訊</a></li>
+</ul>
+<ul>
+	<li class="SITETITLE">我們的產品</li>
+	<li><a href="product.html">VI-TEX振動感測器</a></li>
+	<li><a href="software.html">VI Analyzer分析軟體</a></li>
+</ul>
+<ul>
+	<li class="SITETITLE">聯絡我們</li>
+	<li>03 5397757</li>
+	<li>新北市中和區中正里中正路540號1樓</li>
+	<li><a href="mailto:sales@new-rich-design.com">sales@new-rich-design.com</a></li>
+</ul>
+</div>	
+</div>
+<footer>
+<p>COPYRIGHT © 2018 NEW RICH DESIGN</p>	
+</footer>
+</div>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
