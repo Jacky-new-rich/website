@@ -15,115 +15,122 @@ body{
 }
 
 
-#VIAnalyzer{
+#APP{
 	margin-top: 5vw;
-	height: 34vw;
+	height: 84vw;
 	position: relative;
 }
 
-#VIAnalyzer h1{
+#APP h1{
 	position: absolute;
-	top: 10vw;
-	left: 65vw;
+	text-align: center;
+	top: 4vw;
+	left: 0vw;
+	right: 0vw;
 	font-size: 2.5vw;
+	color: #F29600;
 	font-weight: bolder;
 }
 
-#VIAnalyzer h5{
+#CONTENT{
+	width: 85vw;
 	position: absolute;
-	top: 2.5vw;
-	left: 12vw;
-	font-size: 1vw;
-	font-weight: normal;
+	left: 7.5vw;
+	top: 9vw;
 }
-#MORE{
-	position: absolute;
-	width: 25vw;
-	left: 65vw;
-	top: 20vw;
+#CONTENT h2{
+	font-size: 2vw;
+	line-height: 4.5vw;
+	color: #F29600;
+}
+#CONTENT p{
+	font-size: 1vw;
+	line-height: 2vw;
 }
 
-#MORE p{
-	font-size: 1.2vw;
-	line-height:2.4vw;
+
+#Q1 ul li{
+	width: 42.5vw;
+	float: left;
+	font-size: 1vw;
+	line-height: 2vw;
+	text-indent: 8vw;
+
+}
+#Q1 ul li.TITLE{
+	width: 35vw;
+	float: left;
+	text-align: center;
+	font-size: 1.5vw;
+	line-height: 4vw;
+	background-color: black;
+	color: white;
+	text-indent: 0vw;
+	margin-left: 3.75vw;
+	border-radius: 2.5vw;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+
+
+}
+#Q2 ul li{
+	width: 42.5vw;
+	float: left;
+	margin-bottom: 1vw;
 	text-align: justify;
 	text-justify:inter-ideograph;
+	padding-right: 2vw;
+	box-sizing: border-box;
+}
+#Q2 h5{
+	font-size: 1.5vw;
+	line-height: 3vw;
+
+}
+#Q2 p{
+	font-size: 1vw;
+	line-height: 2vw;
+
 }
 #PIC{
-	width: 100vw;
+	width: 8vw;
 	height:0;
 	padding-bottom:25%;
 	background-repeat:no-repeat;
 	background-size:100% auto;
-	background-image: url(image/product_VIAnalyzer.png);
-	position: absolute;
-	left: 0vw;
-	top: 6vw;
-}
+	background-position: center;
+	float: left;
+	margin-right: 2vw;
 
-#INF{
-	position: relative;
-	height: 78vw;
 }
-#INF h2{
-	position: absolute;
-	font-size: 1.5vw;
-	letter-spacing: 2px;
-	left: 12vw;
-	color: #F29600;
-}
-.TITLE1{
-	top: 0vw;
-}
-.TITLE2{
-	top: 8vw;
-}
-.TITLE3{
-	top: 47vw;
-}
+.Q2PIC1{background-image: url(image/limitation_1.png);}
+.Q2PIC2{background-image: url(image/limitation_2.png);}
+.Q2PIC3{background-image: url(image/limitation_3.png);}
+.Q2PIC4{background-image: url(image/limitation_4.png);}
 
-#INF p{
-	position: absolute;
-	width: 78vw;
+#SPEC {
+	width: 98%;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	border-top: : 1px solid black;
+	border-left: 1px solid black;
+}
+#SPEC th{
+	background-color: black;
+	text-align: center;
+	color: white;
 	font-size: 1vw;
 	line-height: 2vw;
-	letter-spacing: 1px;
-	text-align: justify;
-	text-justify:inter-ideograph;
 }
-.CONTENT1{
-	left: 12vw;
-	top: 3vw;
+#SPEC td{
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	font-size: 1vw;
+	line-height: 2vw;
+	text-align: center;
 }
-.CONTENT2{
-	left: 12vw;
-	top: 11vw;
-}
-.CONTENT3{
-	left: 12vw;
-	top: 50vw;
-}
-#TITLE2PIC{
-	width: 70vw;
-	height:0;
-	padding-bottom:32%;
-	background-repeat:no-repeat;
-	background-size:100% auto;
-	background-image: url(image/product_software_inf.png);
-	position: absolute;
-	left: 15vw;
-	top: 14vw;
-}
-#TITLE3PIC{
-	width: 70vw;
-	height:0;
-	padding-bottom:45%;
-	background-repeat:no-repeat;
-	background-size:100% auto;
-	background-image: url(image/app_cnc.png);
-	position: absolute;
-	left: 15vw;
-	top: 42vw;
+.colume{
+	width: 30%;
 }
 
 #INF a{
@@ -136,36 +143,12 @@ body{
 	background-color: black;
 	position: absolute;
 	left: 42vw;
-	bottom: 3.5vw;
+	bottom: 2.5vw;
 	border-radius: 1vw;
 }
 #INF a:hover{
 	background-color: #F29600;}
-#MODEL{
-	position: absolute;
-	top: 53vw;
-	left: 12vw;
-}
-#MODEL li{
-	float: left;
-	margin-right: 3vw;
-}
-#MODEL div{
-	display: block;
-	width: 23vw;
-	height:0;
-	padding-bottom:58%;
-	background-repeat:no-repeat;
-	background-size:100% auto;
-}
-#MODEL h6{
-	text-align: center;
-	font-size: 1vw;
-	line-height: 2vw;
-}
-.Railvehicle{	background-image: url(image/Railvehicle.png);}
-.Smartgrinder{	background-image: url(image/Smartgrinder.png);}
-.Machinetool{	background-image: url(image/Machinetool.png);}
+
 
 </style>
 </head>
@@ -175,22 +158,105 @@ body{
 <nav id="LEFTBTN">
 	<ul>
 		<li><a href="aboutus.html">公司簡介</a></li>
-		<li><a href="product.html" class="THISPAGE">產品&服務</a></li>
+		<li><a href="product.html">產品&服務</a></li>
 		<li><a href="service.html">支援中心</a></li>
 	</ul>
 </nav>
 <div id="LOGO"></div>
 <nav id="RBTN">
 	<ul>
-		<li><a href="mailto:sales@new-rich-design.com">聯絡我們</a></li>
+		<li><a href="mailto:david_wang@new-rich-design.com">聯絡我們</a></li>
 		<li><a href="index.html">首頁</a></li>
 	</ul>
 </nav>
 </div>
-<div id="VIAnalyzer">
+<div id="APP">
 <h1>應用場域說明</h1>
+<div id="CONTENT">
+<h2>我的場域適合使用哪種VI-TEX感測器？</h2>
+<p>VI-TEX有單軸與多軸的選項，您可以依照以下偵測特性，來選擇適合的感測方式:</p>
+<div id="Q1">
+<ul>
+<li>
+<ul>
+<li class="TITLE">單軸偵測</li>
+<li>1. 被測物主要振動表現在特定單向最明顯。</li>
+<li>2. 輸出資料需求低，或需要低資料量無線傳輸。</li>
+<li>3. 對現有運行機具已有完全的了解，有固定的監測目標。</li>
+<li>4. 應用領域範例：軌道車輛、電梯、樓板剛性等。</li>
+</ul>
+</li>
+<li>
+<ul>
+<li class="TITLE">三軸偵測</li>
+<li>1. 被測物在多方向震動表現皆有多向不同特徵。</li>
+<li>2. 對於環境中所有變量皆需要嚴密監控處。</li>
+<li>3. 不清楚監測目標值，想要建立新的震動演算法。</li>
+<li>4. 應用領域範例：智慧磨床、CNC、 高精度機台、晶圓加工等。</li>
+</ul>
+</li>	
+</ul>
+</div>
+<h2>VI-TEX監測哪些訊號？</h2>
+<ul>
+<li><p>1. 特定方向的震動強度偵測，最多可支援到三軸的震度監測（水平雙向(前後、左右)與垂直(上下)）。</p></li>	
+<li><p>2. 多種靈敏度選擇，配合不同場域，微小與極大的震動都能抓取。</p></li>	
+<li><p>3. 多具備位移、速度或加速度等訊號特性轉換能力，由於振動是由多個複雜頻率來源組合而成，頻率、振幅及相位都是能可用於觸發設定，觸發時針對現場所需要單位以及特性可快速直覺設定。</p></li>	
+<li>
+<table id="SPEC">
+<thead>
+  <tr>
+    <th class="colume">訊號</th>
+    <th>說明</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="colume">速度</td>
+    <td>適合檢查旋轉機械的狀況。 頻帶 的目標為10至1000Hz，這是最廣泛使用 的測量單位。</td>
+  </tr>
+  <tr>
+    <td>加速度</td>
+    <td>用於測量較高頻率的振動，如軸承和齒輪箱。它適用於產生脈衝脈衝的振動，例如軸承磨損，划痕或碎屑。 </td>
+  </tr>
+  <tr>
+    <td>位移</td>
+    <td>表示振動的波動範圍，適用於測量風扇，鼓風機等的不平衡振動。頻帶很低，範圍從10Hz幾百Hz。</td>
+  </tr>
+</tbody>
+</table>
+</li>	
+<li>４. 多元應用場域，專用於長時間監測，例如：機具的老化率、內部零件異常檢出、基座老化、產線穩定性以及生產管理等等。</li>	
+</ul>
+<h2>VI-TEX偵測限制項目</h2>
+<div id="Q2">
+<ul>
+<li>
+<div id="PIC" class="Q2PIC1"></div>
+<h5>被測物無安裝平面</h5>
+<p>體積太小、沒有安裝平台，即無法安裝感測器，但若被測物有安裝在其他平台上，也可將感測器設置於該平台進行監測，或是透過客製化安裝基座解決。</p>	
+</li>
+<li>
+<div id="PIC" class="Q2PIC2"></div>
+<h5>被測物無固定運行模式</h5>
+<p>無固定運行模式的機械，無法透過震動偵測來建立觸發數值或是提供預測指標。此類型場域需要透過長時間累積資料，觀察短中長期的老化曲線，以提供特殊服務。</p>
+</li>
+<li>
+<div id="PIC" class="Q2PIC3"></div>
+<h5>只提供預測指標</h5>
+<p>VI-TEX能夠提供目前機械運行狀況的指標以及健康狀況評估，若您需要能達到防震效果，需另外採購其它防震設備，如主被動式減震平台。</p>
+</li>
+<li>
+<div id="PIC" class="Q2PIC4"></div>
+<h5>無電源環境下續航力受限</h5>
+<p>VI-TEX是為長時間監測並且提供高速邊緣運算能力所設計的感測器，除了可以大幅節省其他設備負擔，也可以為訊號的穩定度提供最高的品質，因此必需要連接電源，電池使用僅支援特殊需求。</p>
+</li>
+</ul>
+</div>
+</div>
 <div id="INF">
-<a href="product.html">回上頁</a>
+<a href="javascript:history.back()">回上頁</a>
+</div>
 </div>
 <div id="SITEMAP">
 <div id="LOGOB"></div>
@@ -209,15 +275,14 @@ body{
 <ul>
 	<li class="SITETITLE">聯絡我們</li>
 	<li>03 5397757</li>
-	<li>新北市中和區中正里中正路540號1樓</li>
-	<li><a href="mailto:sales@new-rich-design.com">sales@new-rich-design.com</a></li>
+	<li>新竹市香山區育德街101號8樓</li>
+	<li><a href="mailto:david_wang@new-rich-design.com">david_wang@new-rich-design.com</a></li>
 </ul>
 </div>	
 </div>
 <footer>
 <p>COPYRIGHT © 2018 NEW RICH DESIGN</p>	
 </footer>
-</div>
 <script>
   AOS.init();
 </script>
