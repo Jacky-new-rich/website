@@ -625,8 +625,10 @@ a.menu ul {
 	padding:0;
 }
 #SITEUL{
-	left: 5vw;
+	width: 100%;
+	left: 0vw;
 	top: none;
+	padding-left: 5VW;
 }
 #SITEUL ul{
 	float: none;
