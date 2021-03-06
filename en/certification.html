@@ -120,6 +120,81 @@ td{
 .GRAY{
 	background-color: #DCDDDD;
 }
+@media screen and (max-width:768px){
+#BANNERCERTIFICATION{
+	margin-top: 5vw;
+	height:60vw;
+	padding-bottom:12%;
+	background-repeat:no-repeat;
+	background-size:250% auto;
+	background-position: top center;
+}
+
+#BANNERCERTIFICATION h1{
+	font-size: 9vw;
+	top:25vw;
+}
+#BANNERCERTIFICATION h2{
+	font-size: 4vw;
+	top:45vw;
+}
+
+#container{
+	position: relative;
+}
+
+#TABLE{
+	width: 90vw;
+	margin-left: 4vw;
+	margin-bottom:5vw;
+}
+#TABLE h3{
+	font-size:4vw;
+	line-height: 8vw;
+	margin-bottom: 2vw;
+	margin-top: 1vw;
+}
+#TABLE h4{
+	font-size:3vw;
+	line-height: 5vw;
+	letter-spacing: 2px;
+	margin-bottom: 1vw;
+	margin-top: 1vw;
+}
+#TABLE p{
+	font-size:2vw;
+	line-height: 4vw;
+	letter-spacing:1px;
+	font-weight: normal;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	text-align: justify;
+	text-justify:inter-ideograph;
+}
+#TABLE a{
+	color: #F29600;
+	font-weight: bolder;
+}
+#TABLE a:hover{
+	color: #FFE600;
+}
+#TABLE table{
+	width:100%;
+}
+th{
+	font-size: 2.5vw;
+	line-height: 4vw;
+}
+.NUB{
+	width: 6vw;
+}
+td{
+	font-size: 2vw;
+}
+#LOGOB{
+	top: 45vw;
+}	
+}
 </style>
 <script type="text/javascript" src="js/jquery.min.js"></script>
 
@@ -134,6 +209,18 @@ td{
 		<li><a href="service.html">Support</a></li>
 	</ul>
 </nav>
+<div id="MENU"class="toggle-nav">
+<nav id="MBTN" class="menu">
+	<ul id="menuUl" class="active">
+		<li><a href="aboutus.html">About</a></li>
+		<li><a href="product.html">Products</a></li>
+		<li><a href="service.html">Support</a></li>
+		<li><a href="index.html">Index</a></li>
+		<li><a href="../certification.html">繁體中文</a></li>
+	</ul>
+</nav>
+</div>
+<div id="MBCONTACTEN"><a href="mailto:david_wang@new-rich-design.com">Contact us</a></div>
 <div id="LOGO"></div>
 <nav id="RBTN">
 	<ul>
@@ -237,7 +324,7 @@ td{
 	<li class="SITETITLE">Contact Us</li>
 	<li>03 5397757</li>
 	<li>8F., No. 101, Yude St., Xiangshan Dist., Hsinchu City 300, Taiwan</li>
-	<li><a href="mailto:david_wang@new-rich-design.com">david_wang@new-rich-design.com</a></li>
+	<li><a href="mailto:david_wang@new-rich-design.com" class="REMOVE">david_wang@new-rich-design.com</a></li>
 </ul>
 </div>	
 </div>
@@ -245,5 +332,12 @@ td{
 <p>COPYRIGHT © 2018 NEW RICH DESIGN</p>	
 </footer>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+document.getElementById('MENU').addEventListener('click', function (e) {
+        $(this).toggleClass('active');
+        $('#menuUl').toggleClass('active');
+    })
+</script>
 </body>
 </html>

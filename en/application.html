@@ -8,6 +8,7 @@
 <link  href="../css/layout.css" rel="stylesheet" type="text/css"  />
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DYV5FXFBCQ"></script>
 <style type="text/css">
 body{
 	overflow-y: scroll;
@@ -17,7 +18,7 @@ body{
 
 #APP{
 	margin-top: 5vw;
-	height: 90vw;
+	height: 95vw;
 	position: relative;
 }
 
@@ -33,9 +34,9 @@ body{
 }
 
 #CONTENT{
-	width: 85vw;
+	width: 90vw;
 	position: absolute;
-	left: 7.5vw;
+	left: 5vw;
 	top: 9vw;
 }
 #CONTENT h2{
@@ -50,7 +51,7 @@ body{
 
 
 #Q1 ul li{
-	width: 42.5vw;
+	width: 45vw;
 	float: left;
 	font-size: 1vw;
 	line-height: 2vw;
@@ -148,9 +149,132 @@ body{
 }
 #INF a:hover{
 	background-color: #F29600;}
+@media screen and (max-width:768px){
 
+#APP{
+	margin-top: 15vw;
+	height: 405vw;
+}
+
+#APP h1{
+	top: 4vw;
+	font-size: 6vw;
+}
+
+#CONTENT{
+	width: 90vw;
+	left: 5vw;
+	top: 15vw;
+}
+#CONTENT h2{
+	font-size: 4vw;
+	line-height: 8vw;
+}
+#CONTENT p{
+	font-size: 3vw;
+	line-height: 5.5vw;
+	text-align: justify;
+	text-justify:inter-ideograph;
+}
+
+#Q1 ul li{
+	width: 40vw;
+	font-size: 3vw;
+	line-height: 5vw;
+	text-indent: 0vw;
+	margin-left: 1vw;
+	margin-right: 2vw;
+	text-align: justify;
+	text-justify:inter-ideograph;
+
+}
+#Q1 ul li.TITLE{
+	width: 40vw;
+	font-size: 4vw;
+	line-height: 7vw;
+	text-indent: 0vw;
+	margin-left: 0vw;
+	margin-right: 2vw;
+	border-radius: 4vw;
+	margin-top: 2vw;
+	margin-bottom: 1vw;
+}
+#Q2 ul li{
+	width: 90vw;
+	margin-bottom: 2vw;
+	padding-right: 5vw;
+}
+#Q2 h5{
+	font-size: 3vw;
+	line-height: 6vw;
+
+}
+#Q2 p{
+	font-size: 2.5vw;
+	line-height: 5vw;
+}
+#PIC{
+	width: 20vw;
+	height:10vw;
+	padding-bottom:26%;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	background-position: center;
+	float: left;
+	margin-right: 4vw;
+
+}
+
+#SPEC {
+	width: 96%;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+}
+#SPEC th{
+	font-size: 3vw;
+	line-height: 6vw;
+}
+#SPEC td{
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	font-size: 2vw;
+	line-height: 5vw;
+	text-align: left;
+	box-sizing: border-box;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	text-align: justify;
+	text-justify:inter-ideograph;
+}
+.colume{
+	width: 30%;
+}
+
+#INF a{
+	display: block;
+	width: 40vw;
+	font-size:5vw;
+	line-height: 10vw;
+	left: 30vw;
+	bottom: 4vw;
+	border-radius: 15vw;
+}
+#INF a:hover{
+	background-color: #F29600;}
+
+#LOGOB{
+	top: 45vw;
+}
+}
 
 </style>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DYV5FXFBCQ');
+</script>
 </head>
 <body>
 <div>
@@ -162,6 +286,18 @@ body{
 		<li><a href="service.html">Support</a></li>
 	</ul>
 </nav>
+<div id="MENU"class="toggle-nav">
+<nav id="MBTN" class="menu">
+	<ul id="menuUl" class="active">
+		<li><a href="aboutus.html">About</a></li>
+		<li><a href="product.html">Products</a></li>
+		<li><a href="service.html">Support</a></li>
+		<li><a href="index.html">Index</a></li>
+		<li><a href="../application.html">繁體中文</a></li>
+	</ul>
+</nav>
+</div>
+<div id="MBCONTACTEN"><a href="mailto:david_wang@new-rich-design.com">Contact us</a></div>
 <div id="LOGO"></div>
 <nav id="RBTN">
 	<ul>
@@ -277,13 +413,19 @@ body{
 	<li class="SITETITLE">Contact Us</li>
 	<li>03 5397757</li>
 	<li>8F., No. 101, Yude St., Xiangshan Dist., Hsinchu City 300, Taiwan</li>
-	<li><a href="mailto:david_wang@new-rich-design.com">david_wang@new-rich-design.com</a></li>
+	<li><a href="mailto:david_wang@new-rich-design.com" class="REMOVE">david_wang@new-rich-design.com</a></li>
 </ul>
 </div>	
 </div>
 <footer>
 <p>COPYRIGHT © 2018 NEW RICH DESIGN</p>	
 </footer>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+document.getElementById('MENU').addEventListener('click', function (e) {
+        $(this).toggleClass('active');
+        $('#menuUl').toggleClass('active');
+    })
+</script>
 </body>
 </html>

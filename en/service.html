@@ -8,6 +8,7 @@
 <link  href="../css/layout.css" rel="stylesheet" type="text/css"  />
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DYV5FXFBCQ"></script>
 <style type="text/css">
 body{
 	overflow-y: scroll;
@@ -126,10 +127,73 @@ body{
                  opacity: 1.0;
              }
          }
+@media screen and (max-width:768px){
+#BANNERSERVICE{
+	margin-top: 15vw;
+	height: 125vw;
+	padding-bottom:12%;
+	background-size:300% auto;
+	background-position: center;
+}
+
+#BANNERSERVICE h1{
+	font-size: 9vw;
+	top:10vw;
+}
+#BANNERSERVICE h2{
+	font-size: 5vw;
+	top:30vw;
+	padding-left: 5vw;
+	padding-right: 5vw;
+
+}
+#BANNERSERVICE input{
+	width:90vw;
+	font-size: 2.5vw;
+	line-height: 6vw;
+	text-indent: 1vw;
+	left: 2.5vw;
+	top:55vw;
+}
+#BANNERSERVICE p{
+	font-size:5vw;
+	top:90vw;}
+
+#NEXT{
+	width: 10vw;
+	left: 43vw;
+	top: 100vw;
+}
+#TABLE{
+	width: 85vw;
+	margin-left: 5vw;
+	margin-top: 2vw;
+	margin-bottom: 3vw;
+}
+#TABLE h3{
+	font-size:5vw;
+	line-height: 10vw;
+}
+#TABLE p{
+	width: 98%;
+	font-size:3vw;
+	line-height: 6vw;
+	letter-spacing:0.5px;
+}
+#LOGOB{
+	top: 45vw;
+}
+}
 
 </style>
 <script type="text/javascript" src="../js/jquery.min.js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-DYV5FXFBCQ');
+</script>
 </head>
 <body>
 <div>
@@ -141,6 +205,18 @@ body{
 		<li><a href="service.html"class="THISPAGE">Support</a></li>
 	</ul>
 </nav>
+<div id="MENU"class="toggle-nav">
+<nav id="MBTN" class="menu">
+	<ul id="menuUl" class="active">
+		<li><a href="aboutus.html">About</a></li>
+		<li><a href="product.html">Products</a></li>
+		<li class="current-active"><a href="service.html">Support</a></li>
+		<li><a href="index.html">Index</a></li>
+		<li><a href="../service.html">繁體中文</a></li>
+	</ul>
+</nav>
+</div>
+<div id="MBCONTACTEN"><a href="mailto:david_wang@new-rich-design.com">Contact us</a></div>
 <div id="LOGO"></div>
 <nav id="RBTN">
 	<ul>
@@ -207,7 +283,7 @@ body{
 	<li class="SITETITLE">Contact Us</li>
 	<li>03 5397757</li>
 	<li>8F., No. 101, Yude St., Xiangshan Dist., Hsinchu City 300, Taiwan</li>
-	<li><a href="mailto:david_wang@new-rich-design.com">david_wang@new-rich-design.com</a></li>
+	<li><a href="mailto:david_wang@new-rich-design.com" class="REMOVE">david_wang@new-rich-design.com</a></li>
 </ul>
 </div>	
 </div>
@@ -226,6 +302,13 @@ $("#search-input").bind("change paste keyup", function(){
   }; 
   mSearch.html('.wrap:not([data-index*="' + value.toLowerCase() + '"]) {display: none;}');
 });
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+document.getElementById('MENU').addEventListener('click', function (e) {
+        $(this).toggleClass('active');
+        $('#menuUl').toggleClass('active');
+    })
 </script>
 </body>
 </html>

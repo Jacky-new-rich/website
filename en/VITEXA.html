@@ -161,7 +161,111 @@ body{
 }
 #INF a:hover{
 	background-color: #F29600;
+}
+@media screen and (max-width:768px){
+#VITEXA{
+	height: 120vw;
+}
 
+#VITEXA h1{
+	top: 90vw;
+	left: 12vw;
+	text-align: left;
+	font-size:6vw;
+}
+
+#VITEXA h5{
+	top: 15vw;
+	left:8vw;
+	font-size: 3vw;
+}
+#SPEC{
+	left:43vw;
+	top: 85vw;
+}
+#SPEC h6{
+	font-size: 2vw;
+	line-height: 4vw;
+	letter-spacing: 2px;
+}
+#SPEC p{
+	font-size: 3vw;
+	line-height: 6vw;
+}
+#PIC{
+	width: 85vw;
+	padding-bottom:70%;
+	left:0vw;
+	top: 13vw;
+}
+#download{
+	width: 28vw;
+	font-size: 3vw;
+	line-height: 8vw;
+	left: 10vw;
+	top: 102vw;
+}
+#INF{
+	height: 232vw;
+}
+#INF h2{
+	font-size:4vw;
+	left:8vw;
+}
+.TITLE1{
+	top: 0vw;
+}
+.TITLE2{
+	top: 80vw;
+}
+.TITLE3{
+	top: 125vw;
+}
+.TITLE4{
+	top: 178vw;
+}
+#INF p{
+	width:78vw;
+	font-size: 3vw;
+	line-height: 5.8vw;
+}
+.CONTENT1{
+	left: 8vw;
+	top: 7vw;
+}
+#TITLE2PIC{
+	width: 93vw;
+	height:0;
+	padding-bottom:34%;
+	left: 2vw;
+	top: 90vw;
+}
+#TITLE3PIC{
+	width: 90vw;
+	height:0;
+	padding-bottom:43%;
+	left: 3vw;
+	top: 133vw;
+}
+#TITLE4PIC{
+	width: 90vw;
+	height:0;
+	padding-bottom:40%;
+	left: 2.5vw;
+	top: 188vw;
+}
+#INF a{
+	width:30vw;
+	font-size:3vw;
+	line-height: 6vw;
+	left: 30vw;
+	bottom: 4.5vw;
+	border-radius:3vw;
+}
+#LOGOB{
+	top: 45vw;
+}
+}
 </style>
 </head>
 <body>
@@ -174,6 +278,18 @@ body{
 		<li><a href="service.html">Support</a></li>
 	</ul>
 </nav>
+<div id="MENU"class="toggle-nav">
+<nav id="MBTN" class="menu">
+	<ul id="menuUl" class="active">
+		<li><a href="aboutus.html">About</a></li>
+		<li><a href="product.html">Products</a></li>
+		<li><a href="service.html">Support</a></li>
+		<li><a href="index.html">Index</a></li>
+		<li><a href="../VITEXA.html">繁體中文</a></li>
+	</ul>
+</nav>
+</div>
+<div id="MBCONTACTEN"><a href="mailto:david_wang@new-rich-design.com">Contact us</a></div>
 <div id="LOGO"></div>
 <nav id="RBTN">
 	<ul>
@@ -226,7 +342,7 @@ body{
 	<li class="SITETITLE">Contact Us</li>
 	<li>03 5397757</li>
 	<li>8F., No. 101, Yude St., Xiangshan Dist., Hsinchu City 300, Taiwan</li>
-	<li><a href="mailto:david_wang@new-rich-design.com">david_wang@new-rich-design.com</a></li>
+	<li><a href="mailto:david_wang@new-rich-design.com" class="REMOVE">david_wang@new-rich-design.com</a></li>
 </ul>
 </div>	
 </div>
@@ -234,8 +350,12 @@ body{
 <p>COPYRIGHT © 2018 NEW RICH DESIGN</p>	
 </footer>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script>
-  AOS.init();
+document.getElementById('MENU').addEventListener('click', function (e) {
+        $(this).toggleClass('active');
+        $('#menuUl').toggleClass('active');
+    })
 </script>
 </body>
 </html>

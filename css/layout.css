@@ -2,9 +2,8 @@
 /* CSS Document */
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
 *{
-	font-family: 'Mukta','Noto Sans TC', sans-serif;
+	font-family: 'Noto Sans TC', sans-serif;
 	text-decoration: none;
 }
 a:hover{
@@ -15,7 +14,7 @@ html{
 }
 
 body{	
-
+	overflow-x: hidden;
 }
 
 #TOP{
@@ -27,7 +26,15 @@ body{
 	top: 0;
 	z-index: 9999;
 }
-
+#MENU{
+	display: none;
+}
+#MBCONTACT{
+	display: none;
+}
+#MBCONTACTEN{
+	display: none;
+}
 #LOGO{
 	width:6vw;
 	height:0;
@@ -123,7 +130,7 @@ body{
 	position: absolute;
 	top: 35%;
 	left: 45vw;
-	z-index: 8999;
+	z-index: 9000;
 }
 #MORE a{
 	display: block;
@@ -258,7 +265,7 @@ body{
 	line-height: 3.6vw;
 	border: 1px solid black;
 	font-size: 1.5vw;
-	z-index: 9999;
+	z-index: 9000;
 }
 
 #MORE2 a:hover{
@@ -443,6 +450,7 @@ body{
 	margin-right: 8vw;
 }
 #LOGOB{
+	display: block;
 	width:8vw;
 	height:0;
 	padding-bottom:5%;
@@ -470,4 +478,185 @@ footer{
 }
 
 @media screen and (min-width: 700px) and (max-width: 1100px){}
-@media screen and (max-width:640px){}
+@media screen and (max-width:768px){
+#TOP{
+	height: 15vw;
+}
+#LOGO{
+	width:15vw;
+	padding-bottom:10%;
+	left: 42.5vw;
+	top: 2vw;
+}
+#MENU{
+	display: block;
+	width:15vw;
+	height:0;
+	padding-bottom:15%;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	background-image: url(../image/btn_menu.png);
+	position: absolute;
+	left: 0vw;
+	top: 0vw;
+	cursor: pointer;
+}
+#MBCONTACT{
+	display: block;
+}
+#MBCONTACT a{ 
+	width:25vw;
+	height:0;
+	padding-bottom:20%;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	background-image: url(../image/contact_mb.png);
+	position: absolute;
+	right: 5vw;
+	top: -2vw;
+	text-indent: -9999px;
+}
+#MBCONTACTEN{
+	display: block;
+}
+#MBCONTACTEN a{ 
+	width:25vw;
+	height:0;
+	padding-bottom:20%;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	background-image: url(../image/contact_mb_en.png);
+	position: absolute;
+	right: 5vw;
+	top: -2vw;
+	text-indent: -9999px;
+}
+#LEFTBTN{
+	display: none;
+}
+#RBTN{
+	display: none;
+}
+#BANNER{
+	margin-top: 15vw;
+	height: 158vw;
+}
+#BANNER h1{
+	font-size: 7vw;
+	top: 13%;
+}
+#BANNER h2{
+	font-size: 5vw;
+	top: 5%;
+}
+
+#LEFTIMAGE{
+	display: none;
+}
+#RIMAGE{
+	display: none;
+}
+#MBTN{	
+
+}
+.menu {
+        position: absolute;
+        display: inline-block;
+	    width: 100vw;
+   		background: #272626;
+   		top: 15vw;
+
+}
+.toggle-nav {
+        position: absolute;
+        left: 4%;
+        color: white;
+        text-decoration: none;
+        line-height: 40px;
+    }
+  
+.menu ul.active {
+        display: none;
+    }
+a.menu ul {
+        left: 0px;
+        color: white;
+        margin-top: 0px;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+        border-radius: 0px 0px 3px 3px;
+        background: #272626;
+        padding-bottom: 2vw;
+    }
+    .menu li {
+        margin: 10px 0px 10px 0px;
+        float: none;
+        display: block;
+    }
+    .menu a {
+        display: block;
+        color: white;
+        font-size: 4.5vw;
+        line-height: 11vw;
+        text-indent: 3vw;
+    }
+ .current-active{
+ 	background-color: black;
+ }
+
+#SITEMAP{
+	height: 80vw;
+	font-size: 3vw;
+	line-height: 8vw;
+	position: relative;
+}
+
+
+#SITEMAP a{
+	border: 1px solid white;
+	padding: 1vw 2vw 1vw 2vw;
+
+}
+#SITEMAP a:hover{
+	border: 1px solid #F29600;
+
+}
+#SITEMAP a.REMOVE{
+	border: none;
+	padding:0;
+}
+#SITEUL{
+	left: 5vw;
+	top: none;
+}
+#SITEUL ul{
+	float: none;
+	display: block;
+	margin-right: 3vw;
+}
+#SITEUL ul.MBWIDTH{
+	width: 60vw;}
+#LOGOB{
+	display: block;
+	width:20vw;
+	height:0;
+	padding-bottom:10%;
+	position: absolute;
+	left: 70vw;
+	top: 55vw;
+}
+
+#SITEUL ul li{
+	float: left;
+	margin-right: 4vw;
+}
+.SITETITLE{
+	width: 100vw;
+	font-size: 5vw;
+	line-height: 12vw;
+}
+
+footer{
+	font-size: 2vw;
+	line-height: 8vw;
+}
+}

@@ -3,11 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <title>全方位AI智慧振動監測服務 | 新力奇股份有限公司 | NEW RICH DESIGN - 產品&服務</title>
+<meta name="description" content="提供給您全方位的振動量測服務，透過多種運算數值包含加速度、速度、位移來找出最佳觸發閾值與老化曲線分析。">
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <link  href="css/reset.css" rel="stylesheet" type="text/css"  />
 <link  href="css/layout.css" rel="stylesheet" type="text/css"  />
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DYV5FXFBCQ"></script>
 <style type="text/css">
 body{
 	overflow-y: scroll;
@@ -136,9 +139,111 @@ a.DOWNLOAD:hover{
 	border-radius: 1vw;
 }
 #BACK:hover{
-	background-color: #F29600;
+	background-color: #F29600;}
+@media screen and (max-width:768px){
+#VITEXWIRE{
+		height:203vw;
+}
+.BASE1{
+	position: relative;
+	width: 80vw;
+	left: 5vw;
+	top: 20vw;
+}
+.BASE2{
+	position: relative;
+	width: 80vw;
+	left: 5vw;
+	top: 20vw;
+}
+#VITEXWIRE h2{
+	font-size: 5vw;
+	line-height: 10vw;
+	padding-top: 1vw;
+}
+#VITEXWIRE h3{
+	font-size: 3vw;
+	line-height: 6vw;
+}
 
+#VITEXWIRE h5{
+	top: 15vw;
+	left:5vw;
+	font-size: 3vw;
+}
+
+.PICS{
+	width: 50vw;
+	height:0;
+	padding-bottom:60%;
+	margin-left: 10vw;
+	margin-bottom: 25vw;
+}
+
+.TOP1{
+	top:58vw;
+}
+
+
+.POS{
+	position: absolute;
+	width:80vw;
+	left: 0vw;
+}
+.POS li span{
+	display: block;
+	width: 53%;
+	float: left;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.POS li{
+	width: 100%;
+	font-size: 2.5vw;
+	line-height:5vw;
+}
+
+li.NAME{
+	border-bottom:none;
+	background-color: #F29600;
+	color: white;
+	display: block;
+	width: 40vw;
+	text-align: center;
+	border-radius: 2vw;
+}
+a.DOWNLOAD{
+	display: block;
+	width:30vw;
+	font-size: 3vw;
+	line-height:6vw;
+	text-align: center;
+	color: white;
+	background-color: #F29600;
+	position: absolute;
+	right: 25vw;
+	top: 26vw;
+	border-radius: 3vw;
+}
+
+#BACK{
+	width:30vw;
+	font-size:3vw;
+	line-height: 6vw;
+	left: 30vw;
+	bottom: 4.5vw;
+	border-radius:3vw;
+}	
+}
 </style>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DYV5FXFBCQ');
+</script>
 </head>
 <body>
 <div>
@@ -150,12 +255,23 @@ a.DOWNLOAD:hover{
 		<li><a href="service.html">支援中心</a></li>
 	</ul>
 </nav>
+<div id="MENU"class="toggle-nav">
+<nav id="MBTN" class="menu">
+	<ul id="menuUl" class="active">
+		<li><a href="aboutus.html">公司簡介</a></li>
+		<li class="current-active"><a href="product.html">產品&服務</a></li>
+		<li><a href="service.html">支援中心</a></li>
+		<li><a href="index.html">首頁</a></li>
+		<li><a href="en/VIWIRE.html">English</a></li>
+	</ul>
+</nav>
+</div>
+<div id="MBCONTACT"><a href="mailto:david_wang@new-rich-design.com">聯絡我們</a></div>
 <div id="LOGO"></div>
 <nav id="RBTN">
 	<ul>
 		<li><a href="mailto:david_wang@new-rich-design.com">聯絡我們</a></li>
 		<li><a href="index.html">首頁</a></li>
-		<li><a href="en/VIWIRE.html">English</a></li>
 	</ul>
 </nav>
 </div>
@@ -217,7 +333,7 @@ a.DOWNLOAD:hover{
 	<li class="SITETITLE">聯絡我們</li>
 	<li>03 5397757</li>
 	<li>新竹市香山區育德街101號8樓</li>
-	<li><a href="mailto:david_wang@new-rich-design.com">david_wang@new-rich-design.com</a></li>
+	<li><a href="mailto:david_wang@new-rich-design.com"class="REMOVE">david_wang@new-rich-design.com</a></li>
 </ul>
 </div>	
 </div>
@@ -225,8 +341,12 @@ a.DOWNLOAD:hover{
 <p>COPYRIGHT © 2018 NEW RICH DESIGN</p>	
 </footer>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script>
-  AOS.init();
+	document.getElementById('MENU').addEventListener('click', function (e) {
+        $(this).toggleClass('active');
+        $('#menuUl').toggleClass('active');
+    })
 </script>
 </body>
 </html>

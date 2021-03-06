@@ -8,6 +8,8 @@
 <link  href="../css/layout.css" rel="stylesheet" type="text/css"  />
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DYV5FXFBCQ"></script>
 <style type="text/css">
 body{
 	overflow-y: scroll;
@@ -153,9 +155,132 @@ li.NAME{
 	border-radius: 1vw;
 }
 #VITEXBASE a:hover{
+	background-color: #F29600;}
+@media screen and (max-width:768px){
+#VITEXBASE{
+	margin-top: 5vw;
+	position: relative;
+	padding-bottom: 12vw;
+	height: 610vw;
+
+}
+#VITEXBASE div{
+}
+.BASE1{
+
+	position: relative;
+	width: 80vw;
+	left: 5vw;
+	top: 20vw;
+}
+.BASE2{
+	position: relative;
+	width: 80vw;
+	left: 5vw;
+	top: 20vw;
+}
+.BASE5{
+	position: relative;
+	width: 80vw;
+	left: 5vw;
+	top: 20vw;
+}
+.BASE6{
+	position: relative;
+	width: 80vw;
+	left: 5vw;
+	top: 20vw;
+}
+#VITEXBASE h2{
+	font-size: 5vw;
+	line-height: 10vw;
+}
+#VITEXBASE h3{
+	font-size: 3vw;
+	line-height: 6vw;
+}
+
+#VITEXBASE h5{
+	top: 15vw;
+	left:5vw;
+	font-size: 3vw;
+}
+
+.PICS{
+	width: 50vw;
+	height:0;
+	padding-bottom:60%;
+	margin-left: 18vw;
+	margin-bottom: 25vw;
+}
+.TOP1{
+	top:76vw;
+}
+.TOP1_1{
+	top:65vw;
+}
+.TOP2{
+	top:150vw;
+}
+.TOP3{
+	top:213vw;
+}
+.TOP1EN{
+	top:65vw;
+}
+.TOP2EN{
+	top:140vw;
+}
+.POS{
+	width: 83vw;
+	left: 0vw;
+}
+.POS li span{
+	display: block;
+	width:40%;
+	float: left;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.POS li{
+	width: 100%;
+	font-size: 1vw;
+	line-height:5vw;
+}
+.SPEC{
+	border-bottom: 1px solid black;
+}
+li.NAME{
+	border-bottom:none;
 	background-color: #F29600;
+	color: white;
+	display: block;
+	width: 50vw;
+	text-align: center;
+	border-radius: 3vw;
+}
+#VITEXBASE a{
+	width:30vw;
+	font-size:3vw;
+	line-height: 6vw;
+	left: 30vw;
+	bottom: 4.5vw;
+	border-radius:3vw;
+}
+#LOGOB{
+	top: 45vw;
+}
+}
 
 </style>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DYV5FXFBCQ');
+</script>
 </head>
 <body>
 <div>
@@ -167,6 +292,18 @@ li.NAME{
 		<li><a href="service.html">Support</a></li>
 	</ul>
 </nav>
+<div id="MENU"class="toggle-nav">
+<nav id="MBTN" class="menu">
+	<ul id="menuUl" class="active">
+		<li><a href="aboutus.html">About</a></li>
+		<li class="current-active"><a href="product.html">Products</a></li>
+		<li><a href="service.html">Support</a></li>
+		<li><a href="index.html">Index</a></li>
+		<li><a href="../VIBASE.html">繁體中文</a></li>
+	</ul>
+</nav>
+</div>
+<div id="MBCONTACTEN"><a href="mailto:david_wang@new-rich-design.com">Contact us</a></div>
 <div id="LOGO"></div>
 <nav id="RBTN">
 	<ul>
@@ -208,7 +345,7 @@ li.NAME{
 <ul>
 <li>
 <div id="PIC21" class="PICS"></div>
-<ul class="POS TOP1">
+<ul class="POS TOP1EN">
 <li class="NAME">NUT (1/4”UNC)</li>
 <li class="SPEC"><span>Material</span>Stainless steel</li>
 <li class="SPEC"><span>Screw Size</span>1/4“UNC，L：30mm</li>
@@ -217,7 +354,7 @@ li.NAME{
 </li>
 <li>
 <div id="PIC22" class="PICS"></div>
-<ul class="POS TOP2">
+<ul class="POS TOP2EN">
 <li class="NAME">Countersunk Screw Flat Head (1/4”UNC)</li>
 <li class="SPEC"><span>Material</span>Stainless steel</li>
 <li class="SPEC"><span>Screw Size</span>1/4”UNC，L：5mm3/8”UNC，L：12mm</li>
@@ -241,7 +378,7 @@ li.NAME{
 <ul>
 <li>
 <div id="PIC51" class="PICS"></div>
-<ul class="POS TOP1">
+<ul class="POS TOP1EN">
 <li class="NAME">VI-BASE-I(VERTICAL-TYPE)</li>
 <li class="SPEC"><span>Material</span>Zinc Alloy</li>
 <li class="SPEC"><span>Operating Temperature Range</span>-40℃ ≦ T ≦ 100℃</li>
@@ -286,7 +423,7 @@ li.NAME{
 	<li class="SITETITLE">Contact Us</li>
 	<li>03 5397757</li>
 	<li>8F., No. 101, Yude St., Xiangshan Dist., Hsinchu City 300, Taiwan</li>
-	<li><a href="mailto:david_wang@new-rich-design.com">david_wang@new-rich-design.com</a></li>
+	<li><a href="mailto:david_wang@new-rich-design.com" class="REMOVE">david_wang@new-rich-design.com</a></li>
 </ul>
 </div>	
 </div>
@@ -294,8 +431,12 @@ li.NAME{
 <p>COPYRIGHT © 2018 NEW RICH DESIGN</p>	
 </footer>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script>
-  AOS.init();
+document.getElementById('MENU').addEventListener('click', function (e) {
+        $(this).toggleClass('active');
+        $('#menuUl').toggleClass('active');
+    })
 </script>
 </body>
 </html>
